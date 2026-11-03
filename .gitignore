@@ -1,0 +1,53 @@
+# .NET build and test output
+**/[Bb]in/
+**/[Oo]bj/
+artifacts/
+TestResults/
+coverage/
+BenchmarkDotNet.Artifacts/
+*.trx
+*.coverage
+*.coveragexml
+*.binlog
+*.nupkg
+*.snupkg
+
+# Editor and operating-system state
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.rsuser
+*.swp
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Local configuration, credentials and runtime stores
+.env
+.env.*
+!.env.example
+secrets/
+secrets.json
+appsettings.*.local.json
+*.key
+*.pem
+*.pfx
+*.p12
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Local execution and assistant state
+.claude/
+.codex/
+.opencode/
+.grok/
+.kimi/
+.agent-output/
+node_modules/

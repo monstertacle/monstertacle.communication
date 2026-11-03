@@ -1,0 +1,7 @@
+{
+  "integration": "none",
+  "script": "sh",
+  "feature_numbering": "sequential",
+  "allow_symlinks": false,
+  "speckit_version": "1.2.2"
+}
