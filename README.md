@@ -32,3 +32,14 @@ bash .specify/scripts/bash/create-new-feature.sh --dry-run --json \
 
 Repository initialization only. API, package boundaries and the first feature
 remain to be specified. See [project rules](AGENTS.md).
+
+## Runtime target requirement
+
+The maintained target scope is .NET 10 **and additionally .NET 11**. The first
+adapter implementation must qualify both runtimes on native Linux and Windows,
+including protocol contracts, rejection, cancellation and recovery. Reuse compatible
+maintained upstream packages and keep execution admission in the consuming host.
+
+There is currently no C# project, adapter, test suite or runtime package in this
+repository. These are requirements for future implementation, not a claim of
+implemented runtime support. See [runtime support scope](specs/001-runtime-support-scope/spec.md).
