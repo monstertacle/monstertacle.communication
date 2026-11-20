@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Monstertacle.Communication.Mcp/Monstertacle.Communication.Mcp.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Monstertacle.Communication.Mcp.Tests/Monstertacle.Communication.Mcp.Tests.csproj" />
+  </Folder>
+</Solution>
