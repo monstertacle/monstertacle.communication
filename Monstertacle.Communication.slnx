@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Monstertacle.Communication.Mcp/Monstertacle.Communication.Mcp.csproj" />
+  </Folder>
+</Solution>
