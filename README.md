@@ -71,3 +71,8 @@ dotnet test -c Release
 
 The specification scaffolding is based on Spec Kit 1.2.2. Shared Bash and
 PowerShell helpers are in `.specify/scripts/`.
+
+## Contributing
+
+Review the [secret handling rules and mandatory staged check](docs/secret-handling.md)
+before committing.

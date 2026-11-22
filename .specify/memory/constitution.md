@@ -33,6 +33,18 @@ Client-supplied messages, tools and state are inputs for validation, not executi
 authority. Project only authorized information. Keep credentials and internal
 execution context out of provider messages, public events and source control.
 
+Keep real API keys, tokens, passwords, credential-bearing connection strings,
+private keys, confidential data, and session or authentication state out of
+sources, tests, docs, examples, Git history, logs, artifacts, caches and images.
+Use runtime secret management and ephemeral synthetic test keys generated at test
+time. Ignore rules alone are insufficient. Report confirmed exposure privately
+to the authorized owner without values and rotate affected real credentials
+promptly with authorization.
+
+Before every commit, examine the exact staged diff and run the [staged secret
+check](../../docs/secret-handling.md). A detection, missing dependency or scan
+failure blocks the commit. Reports must redact sensitive values.
+
 ## VI. Maintainable delivery
 
 Use English for maintained project content, neutral public metadata and explicit
@@ -45,4 +57,8 @@ Apply this constitution to every feature specification and plan. Amendments must
 state their reason, affected contracts and verification. Project initialization
 does not approve a runtime API or claim an implemented integration.
 
-**Version**: 1.0.0 | **Ratified**: 2026-11-03 | **Last Amended**: 2026-11-03
+The staged secret-handling amendment reduces accidental disclosure in contributor
+workflows. The [feature plan](../../specs/003-staged-secret-protection/plan.md)
+records affected contracts and verification.
+
+**Version**: 1.1.0 | **Ratified**: 2026-11-03 | **Last Amended**: 2026-11-22
